@@ -1,10 +1,9 @@
 # C-SET Exposome Infrastructure
 
-Scalable spatiotemporal data pipelines and modeling infrastructure for transplant exposome research, developed by the Penn Medicine Lab of Center for Systems Epidemiology and Transplant Exposomics.
-
+Scalable spatiotemporal data pipelines and modeling infrastructure for transplant exposome research, developed by the Center for Systems Epidemiology and Transplant Exposomics (C-SET), Penn Medicine.
 ## Scientific Scope
 
-C-SET integrates environmental exposure science, systems epidemiology, and causal inference to understand how multidimensional environmental exposures influence solid organ transplant outcomes.
+C-SET integrates environmental exposure science, biostatistics, systems epidemiology, and causal inference to understand how multidimensional environmental exposures influence solid organ transplant outcomes.
 
 This repository focuses on:
 
@@ -21,7 +20,7 @@ This repository focuses on:
 ### Data Infrastructure
 
 #### Clinical Transplant Data
-- Registry: USRDS (Core, UNOS, SRTR)
+- Registry: USRDS (Core, UNOS)
 - Claims: CMS Claims
 - EHR: Epic COSMOS
 - ICD-10 diagnostic groupings (e.g., infection, cardiovascular disease)
@@ -35,13 +34,13 @@ This repository focuses on:
 - HRSA ZIP–ZCTA crosswalk
 - HUD ZIP–County crosswalk
 
-### Composite and Vulnerability Indices
+#### Composite and Vulnerability Indices
 - CVI and related contextual indices
 
 ### Pipelines
 - Exposure extraction and spatial linkage
 - USRDS Longitudinal dataset construction
-- Modeling workflows (GAM, distributed lag, Bayesian frameworks, Causal Inference)
+- Modeling workflows (GAMs, distributed lag models, Bayesian hierarchical models, causal inference frameworks)
 - HPC batch configuration templates
 
 ### Reproducibility Principles
