@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "C-SET Exposome Infrastructure"
+message: "If you use this repository, please cite it as below."
+authors:
+  - family-names: Lu
+    given-names: Ting
+    affiliation: "Center for Systems Epidemiology and Transplant Exposomics (C-SET), Penn Medicine"
+repository-code: "https://github.com/upenn-cset-lab/cset-exposome-infrastructure"
+version: 0.1.0
+date-released: 2026-02-14
+license: MIT
