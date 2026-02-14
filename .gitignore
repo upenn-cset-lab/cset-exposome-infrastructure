@@ -47,3 +47,29 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# R artifacts
+.RData
+.Rhistory
+.Rproj.user/
+*.rds
+
+# SAS artifacts
+*.sas7bdat
+*.sas7bcat
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+
+# HPC logs
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+
