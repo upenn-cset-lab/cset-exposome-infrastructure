@@ -1,5 +1,7 @@
 # Data Architecture – C-SET Exposome Infrastructure
 
+![C-SET Exposome Data Architecture](figures/data_architecture_overview.png)
+
 ## 1. Purpose
 
 This document defines the multi-layer, multi-scale data architecture supporting transplant exposome research at C-SET.
