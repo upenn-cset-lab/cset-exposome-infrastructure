@@ -1,6 +1,15 @@
 # Data Architecture – C-SET Exposome Infrastructure
 
 ![C-SET Exposome Data Architecture](figures/data_architecture_overview.png)
+### Interpretation
+
+This diagram illustrates the layered architecture of the C-SET exposome infrastructure.
+
+Clinical, environmental, and spatial data sources are first ingested and harmonized within secure environments. These heterogeneous inputs are linked through standardized geographic and temporal keys, enabling construction of multi-granularity Standard Analysis Files (SAFs). 
+
+Downstream statistical and machine learning models operate on SAFs aligned to appropriate analytical grains (e.g., person-day, transplant-level, ZCTA-day), ensuring that modeling strategies are structurally consistent with the underlying data architecture.
+
+The design emphasizes modularity, reproducibility, and explicit version control across all data layers.
 
 ## 1. Purpose
 
