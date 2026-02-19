@@ -37,7 +37,7 @@ This repository focuses on:
 #### Composite and Vulnerability Indices
 - CVI and related contextual indices
 
-### Pipelines
+### Programming Pipelines
 - Exposure extraction and spatial linkage
 - USRDS Longitudinal dataset construction
 - Modeling workflows (GAMs, distributed lag models, Bayesian hierarchical models, causal inference frameworks)
